@@ -1,0 +1,19 @@
+.logo-box {
+    padding: 1rem;
+    display: flex;
+
+    &__logo {
+        color: #fff;
+    }
+
+    &__logo__text {
+        background: linear-gradient(#b902cd, #02e3d4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    &__logo__extension {
+        background: linear-gradient(#02e3d4, #b902cd);
+        padding: .2rem;
+    }
+}

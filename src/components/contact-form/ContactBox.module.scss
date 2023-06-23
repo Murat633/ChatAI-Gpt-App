@@ -1,0 +1,37 @@
+.title {
+    text-align: center;
+    color: #111;
+}
+
+.contact {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 100%;
+    text-align: center;
+    width: 300px;
+
+    .form {
+        &-group {
+
+            input {
+                border: 1px solid #0473f1;
+                padding: .5rem;
+                border-radius: 500px;
+                margin: 1rem 0;
+                outline: none;
+                width: 100%;
+            }
+        }
+
+        .send {
+            padding: .5rem 3rem;
+            border-radius: 500px;
+            outline: none;
+            border: 1px solid #f104f1;
+            font-weight: 900;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+}

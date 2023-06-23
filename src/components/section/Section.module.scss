@@ -1,0 +1,51 @@
+.section {
+    display: grid;
+    margin: 5rem auto;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    grid-template-columns: 1fr 1fr;
+
+    &__description {
+        color: #fff;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        &__title {
+            font-weight: bolder;
+            font-size: 2rem;
+        }
+
+        &__desc {
+            font-size: 1.2rem;
+        }
+
+        &__btn {
+            margin-top: auto;
+            display: block;
+            background: linear-gradient(to right, #06c3ed, #d402c6);
+            color: #000;
+            padding: .5rem 1rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+    }
+
+    &__promotion {
+        width: 100%;
+
+        &[id=right] {
+            order: -1;
+        }
+
+        &__img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}

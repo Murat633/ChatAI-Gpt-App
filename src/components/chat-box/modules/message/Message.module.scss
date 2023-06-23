@@ -1,0 +1,30 @@
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    span {
+        border-radius: 500px;
+        border: 1px solid #333;
+        padding: .3rem 1rem;
+    }
+}
+
+.gpt {
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+
+    img {
+        width: 30px;
+        border: 1px solid #333;
+        padding: .3rem;
+        border-radius: 500px;
+    }
+
+    span {
+        border: 1px solid #333;
+        padding: .3rem 1rem;
+        border-radius: 500px;
+    }
+}
